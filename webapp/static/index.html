@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Hueforge STL Generator</title>
+</head>
+<body>
+  <h1>Hueforge STL Generator</h1>
+  <input type="file" id="file" accept="image/*"><br>
+  <label>Max dim (px): <input id="maxdim" type="number" value="300"></label><br>
+  <label>scale XY (mm/pixel): <input id="scalexy" type="number" value="0.5" step="0.1"></label><br>
+  <label>z scale (mm): <input id="zscale" type="number" value="10" step="0.1"></label><br>
+  <label>base thickness (mm): <input id="base" type="number" value="2" step="0.1"></label><br>
+  <button id="go">Generate STL</button>
+  <div id="result"></div>
+  <script src="/static/script.js"></script>
+</body>
+</html>
